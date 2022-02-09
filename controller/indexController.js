@@ -3,3 +3,5 @@ const indexController = {
         res.render('index')
     }
 }
+
+module.exports = indexController
