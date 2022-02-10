@@ -1,6 +1,1 @@
-{
-    "banho": "R$ 40,00",
-    "tosa": "R$ 30,00",
-    "hidratacao": "R$ 50,00",
-    "aplicacaoVacina": "R$ 80,00"
-  }
+[{ "serviço": "Banho Completo", "valor": "R$40,00" }, { "serviço": "Toda", "valor": "R$30,00" }, { "serviço": "Hidratação", "valor": "R$50,00" }, { "serviço": "Aplicação Vacina", "valor": "R$80,00" }]
