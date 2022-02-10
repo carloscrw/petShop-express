@@ -1,6 +1,10 @@
+const servicos = require("../model/servico.json")
+
+
 const indexController = {
     telaPrincipal: (req, res) => {
-        res.render('index')
+
+        res.render('index', { listaServicos: servicos })
     }
 }
 

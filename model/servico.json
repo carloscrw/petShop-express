@@ -1,1 +1,21 @@
-[{ "serviço": "Banho Completo", "valor": "R$40,00" }, { "serviço": "Toda", "valor": "R$30,00" }, { "serviço": "Hidratação", "valor": "R$50,00" }, { "serviço": "Aplicação Vacina", "valor": "R$80,00" }]
+[{
+        "nome": "Banho",
+        "preco": "R$ 40,00",
+        "descricao": "Banho no pet"
+    },
+    {
+        "nome": "tosa",
+        "preco": "R$ 30,00",
+        "descricao": "Tosar pelo do pet"
+    },
+    {
+        "nome": "hidratacao",
+        "preco": " R$ 50,00",
+        "descricao": "hidratar pelo"
+    },
+    {
+        "nome": "aplicacaoVacina",
+        "preco": "R$ 80,00",
+        "descricao": "Vacinar o pet"
+    }
+]

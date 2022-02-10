@@ -16,26 +16,19 @@
                     <div class="container">
                         <h2>serviços</h2>
                         <div class="items">
-                            <article>
-                                <div class="thumb"></div>
-                                <h3>Banho</h3>
-                                <h4>R$40,00</h4>
-                            </article>
-                            <article>
-                                <div class="thumb"></div>
-                                <h3>Tosa</h3>
-                                <h4>R$40,00</h4>
-                            </article>
-                            <article>
-                                <div class="thumb"></div>
-                                <h3>Hidatação</h3>
-                                <h4>R$40,00</h4>
-                            </article>
-                            <article>
-                                <div class="thumb"></div>
-                                <h3>Aplicação de Vacina</h3>
-                                <h4>R$40,00</h4>
-                            </article>
+                            <% for(let sevico of listaServicos) {%>
+
+                                <article>
+                                    <div class="thumb"></div>
+                                    <h3>
+                                        <%=listaServicos.nome%>
+                                    </h3>
+                                    <h4>
+                                        <%=listaServicos.nome%>
+                                    </h4>
+                                </article>
+                                <%}%>
+
                         </div>
                     </div>
                 </section>
