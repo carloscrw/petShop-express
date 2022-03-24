@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -50,6 +51,7 @@ a.btn.btn-primary {
     display: flex;
     justify-content: space-between;
 }
+
 
 header {
     width: 100%;
@@ -164,7 +166,6 @@ footer .mapa iframe {
     max-width: 100%;
 }
 
-
 /* SOBRE */
 
 section.team .container {
@@ -199,6 +200,14 @@ section.servicos-lista article .thumb {
     margin: 0 30px 30px;
 }
 
+ .thumb img{
+    max-width: 100%;
+    width: 250px;
+    height: 200px;
+  
+   
+}
+
 section.servicos-lista article .info {
     padding: 0 30px;
     width: 800px;
@@ -208,7 +217,6 @@ section.servicos-lista article .info {
 section.servicos-lista article .info h2 {
     margin-top: 0;
 }
-
 
 /* contato */
 
@@ -264,4 +272,15 @@ section.contato h1 {
 section.contato a:any-link,
 section.contato p {
     color: #575757;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+.formUser{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
 }
